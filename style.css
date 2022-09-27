@@ -38,7 +38,6 @@ input {
     border: 1px solid goldenrod;
     border-radius: 5px;
     margin: 6px auto;
-    text-align: center;
     padding: 5px
 }
 
@@ -65,7 +64,7 @@ input {
     margin-bottom: 60px;
 }
 
-#main {
+#input {
     text-align: center;
 }
 
@@ -73,8 +72,14 @@ input {
     margin: 14px;
 }
 
+#main {
+    text-align: center;
+}
+
 #section {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -84,6 +89,5 @@ input {
     border: 2px solid goldenrod;
     background-color: white;
     border-radius: 5px;
-    float: left;
-    margin: 5px;
+    margin: 5px;  
 }
